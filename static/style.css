@@ -1,0 +1,36 @@
+body {
+    background-color: #0f172a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.glass-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.input-group-text, .form-control {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    background-color: #1e293b;
+    color: #fff;
+}
+
+.btn {
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.viewport-box {
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
